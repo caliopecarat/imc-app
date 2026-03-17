@@ -1,0 +1,14 @@
+{
+  "name": "imc-app",
+  "version": "1.0.0",
+  "description": "Aplicación de escritorio para calcular IMC con historial",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.1.0"
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Elias",
+    "peso": 70,
+    "altura": 1.7,
+    "imc": 24.22,
+    "categoria": "Peso normal"
+  },
+  {
+    "nombre": "Maria",
+    "peso": 68,
+    "altura": 1.65,
+    "imc": 24.98,
+    "categoria": "Peso normal"
+  },
+  {
+    "nombre": "Ada",
+    "peso": 85,
+    "altura": 165,
+    "imc": 0,
+    "categoria": "Bajo peso"
+  },
+  {
+    "nombre": "Elijah",
+    "peso": 50,
+    "altura": 173,
+    "imc": 0,
+    "categoria": "Bajo peso"
+  },
+  {
+    "nombre": "Jaime",
+    "peso": 60,
+    "altura": 1.65,
+    "imc": 22.04,
+    "categoria": "Peso normal"
+  },
+  {
+    "nombre": "Harry",
+    "peso": 65,
+    "altura": 1.85,
+    "imc": 18.99,
+    "categoria": "Peso normal"
+  }
+]

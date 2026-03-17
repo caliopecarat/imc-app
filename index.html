@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora IMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Calculadora de Índice de Masa Corporal</h1>
+    <p class="subtitulo">
+      Ingresa tus datos para calcular el IMC y consultar el historial de resultados guardados.
+    </p>
+
+    <form id="imcForm">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" placeholder="Ej. Gabriela">
+
+      <label for="peso">Peso (kg):</label>
+      <input type="number" id="peso" step="0.01" placeholder="Ej. 70">
+
+      <label for="altura">Altura (m):</label>
+      <input type="number" id="altura" step="0.01" placeholder="Ej. 1.70">
+
+      <button type="button" id="calcularBtn">Calcular IMC</button>
+    </form>
+
+    <div id="resultado">
+      <h2>Resultado</h2>
+      <p>Aquí aparecerá el resultado del cálculo.</p>
+    </div>
+
+    <div id="historial">
+      <h2>Historial de cálculos</h2>
+      <p>Aquí aparecerá el historial guardado.</p>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
